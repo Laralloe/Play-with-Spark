@@ -1,27 +1,55 @@
 @import play.api.libs.json._
 @import utils.JsonUtils._
+@import models.Model.{ data, pageSize }
 
-@(jsonData: Seq[JsValue], headers: Seq[String])
+@(jsonData: Seq[JsValue], headers: Seq[String], pageNumber: Int)
 
 @main("Records") {
-  <body>
-    <table border="1">
-      <thead>
-        @if(headers.nonEmpty) {
-          @for(record <- headers) {
+  <h1>Records</h1>
+  <h2>Ryan Stone - 040761350 - CST8333 350</h2>
+  <div class="pagination">
+    <div id="current-page-display">@pageNumber of @(data.count / pageSize)</div>
+    <button id="previous"
+      hx-get="@routes.HomeController.index(pageNumber - 1)"
+      hx-trigger="click"
+      hx-target="body"
+      hx-swap="innerHTML"
+      @if(pageNumber == 1) {
+        disabled
+      }
+    >
+      Previous
+    </button>
+    <button id="next"
+      hx-get="@routes.HomeController.index(pageNumber + 1)"
+      hx-trigger="click"
+      hx-target="body"
+      hx-swap="innerHTML"
+      @if(pageNumber == (data.count / pageSize)) {
+        disabled
+      }
+    >
+      Next
+    </button>
+  </div>
+  <table border="1">
+    <thead>
+      @if(headers.nonEmpty) {
+        @for(record <- headers) {
+          @if(record != "__rowId") {
             <th>@record</th>
           }
         }
-      </thead>
-      <tbody>
-        @for(record <- jsonData) {
-          <tr>
-            @for(header <- headers) {
-              <td>@(unwrapValue(record \ header))</td>
-            }
-          </tr>
-        }
-      </tbody>
-    </table>
-  </body>
+      }
+    </thead>
+    <tbody>
+      @for(record <- jsonData) {
+        <tr>
+          @for(header <- headers) {
+            <td>@(unwrapValue(record \ header))</td>
+          }
+        </tr>
+      }
+    </tbody>
+  </table>
 }

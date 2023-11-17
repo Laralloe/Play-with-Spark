@@ -4965,3 +4965,615 @@ WARNING: Unmatched cancel notification for request id 248
 2023.11.16 21:50:51 INFO  Shut down connection with build server.
 2023.11.16 21:50:51 INFO  Shut down connection with build server.
 2023.11.16 21:50:51 INFO  Exiting server
+2023.11.16 21:51:00 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ryant\Play-with-Spark' for client Visual Studio Code 1.84.2.
+2023.11.16 21:51:02 INFO  Attempting to connect to the build server...
+2023.11.16 21:51:02 INFO  skipping build import with status 'Installed'
+2023.11.16 21:51:02 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk17.0.8_8 defined at C:\Users\ryant\.bloop\bloop.json
+2023.11.16 21:51:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ryant\Play-with-Spark\.metals\bsp.trace.json or C:\Users\ryant\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.16 21:51:02 INFO  Attempting to connect to the build server...
+2023.11.16 21:51:02 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk17.0.8_8 defined at C:\Users\ryant\.bloop\bloop.json
+2023.11.16 21:51:02 INFO  Attempting to connect to the build server...
+2023.11.16 21:51:02 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk17.0.8_8 defined at C:\Users\ryant\.bloop\bloop.json
+2023.11.16 21:51:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ryant\Play-with-Spark\project\.metals\bsp.trace.json or C:\Users\ryant\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.16 21:51:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ryant\Play-with-Spark\project\project\.metals\bsp.trace.json or C:\Users\ryant\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.16 21:51:02 INFO  time: Connected to build server in 0.42s
+2023.11.16 21:51:02 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.16 21:51:02 ERROR Failed to fetch mtags for 2.11.8
+Error downloading org.scalameta:mtags_2.11.8:1.1.0
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+2023.11.16 21:51:02 INFO  Failed to resolve mtags for 2.11.8
+2023.11.16 21:51:03 ERROR Failed to fetch mtags for 2.11.8
+Error downloading org.scalameta:mtags_2.11.8:1.1.0
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+2023.11.16 21:51:03 INFO  Failed to resolve mtags for 2.11.8
+2023.11.16 21:51:03 ERROR Failed to fetch mtags for 2.12.4
+Error downloading org.scalameta:mtags_2.12.4:1.1.0
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.12.4\1.1.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.4/1.1.0/mtags_2.12.4-1.1.0.pom
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.12.4\1.1.0\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.12.4/1.1.0/mtags_2.12.4-1.1.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.12.4/1.1.0/mtags_2.12.4-1.1.0.pom
+2023.11.16 21:51:03 INFO  Failed to resolve mtags for 2.12.4
+2023.11.16 21:51:03 ERROR Failed to fetch mtags for 2.11.8
+Error downloading org.scalameta:mtags_2.11.8:1.1.0
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+2023.11.16 21:51:03 INFO  Failed to resolve mtags for 2.11.8
+2023.11.16 21:51:03 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:03 ERROR Failed to fetch mtags for 2.12.4
+Error downloading org.scalameta:mtags_2.12.4:1.1.0
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.12.4\1.1.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.4/1.1.0/mtags_2.12.4-1.1.0.pom
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.12.4\1.1.0\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.12.4/1.1.0/mtags_2.12.4-1.1.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.12.4/1.1.0/mtags_2.12.4-1.1.0.pom
+2023.11.16 21:51:03 INFO  Failed to resolve mtags for 2.12.4
+2023.11.16 21:51:03 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:06 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:06 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:06 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:06 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:06 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:06 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:07 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:07 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:07 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:07 INFO  time: indexed workspace in 5.26s
+2023.11.16 21:51:07 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:07 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 21:51:07 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:08 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:08 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:08 INFO  time: compiled root in 1.09s
+2023.11.16 21:51:08 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:08 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 21:51:08 INFO  time: compiled root in 51ms
+2023.11.16 21:51:08 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 21:51:08 INFO  time: compiled root in 46ms
+2023.11.16 21:51:10 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:10 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 21:51:10 INFO  time: compiled root in 46ms
+2023.11.16 21:51:10 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:10 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:13 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 21:51:13 INFO  time: compiled root in 60ms
+2023.11.16 21:51:13 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:21 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:28 INFO  compiling root (3 scala sources)
+2023.11.16 21:51:28 INFO  time: compiled root in 40ms
+2023.11.16 21:51:28 INFO  compiling root (3 scala sources)
+2023.11.16 21:51:28 INFO  time: compiled root in 37ms
+2023.11.16 21:51:39 INFO  compiling root (7 scala sources and 1 java source)
+2023.11.16 21:51:39 INFO  time: compiled root in 0.21s
+2023.11.16 21:51:39 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 21:51:39 INFO  time: compiled root in 54ms
+2023.11.16 21:51:39 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 21:51:39 INFO  time: compiled root in 42ms
+2023.11.16 21:51:50 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:50 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:50 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:50 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:50 WARN  unsupported Scala 2.11.8
+2023.11.16 21:51:54 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 21:51:54 INFO  time: compiled root in 48ms
+2023.11.16 21:52:49 WARN  unsupported Scala 2.11.8
+2023.11.16 21:52:49 WARN  unsupported Scala 2.11.8
+Nov 16, 2023 9:52:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 81
+2023.11.16 21:52:50 WARN  unsupported Scala 2.11.8
+2023.11.16 21:52:50 WARN  unsupported Scala 2.11.8
+2023.11.16 21:52:53 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 21:52:53 INFO  time: compiled root in 39ms
+2023.11.16 21:53:24 WARN  unsupported Scala 2.11.8
+2023.11.16 21:53:25 WARN  unsupported Scala 2.11.8
+2023.11.16 21:53:25 WARN  Using indexes to guess the definition of DataFrameConverter
+2023.11.16 21:53:25 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 21:53:25 INFO  time: compiled root in 44ms
+2023.11.16 21:58:11 ERROR Failed to fetch mtags for 2.11.8
+Error downloading org.scalameta:mtags_2.11.8:1.1.0
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+2023.11.16 21:58:11 INFO  Failed to resolve mtags for 2.11.8
+2023.11.16 21:58:11 WARN  unsupported Scala 2.11.8
+2023.11.16 21:58:11 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:08 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:08 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 22:00:08 INFO  time: compiled root in 56ms
+2023.11.16 22:00:12 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:12 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:12 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:12 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:12 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:13 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:21 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:23 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:26 WARN  unsupported Scala 2.11.8
+Nov 16, 2023 10:00:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 205
+2023.11.16 22:00:26 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:26 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:26 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:28 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:28 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:29 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:29 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:32 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:34 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:36 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:37 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:37 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:39 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:42 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:43 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:45 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:45 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:48 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:48 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:50 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:51 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:54 WARN  unsupported Scala 2.11.8
+2023.11.16 22:00:57 WARN  unsupported Scala 2.11.8
+2023.11.16 22:01:01 WARN  unsupported Scala 2.11.8
+2023.11.16 22:01:05 WARN  unsupported Scala 2.11.8
+2023.11.16 22:01:05 WARN  unsupported Scala 2.11.8
+2023.11.16 22:01:09 WARN  unsupported Scala 2.11.8
+2023.11.16 22:01:09 WARN  unsupported Scala 2.11.8
+2023.11.16 22:01:11 WARN  unsupported Scala 2.11.8
+2023.11.16 22:01:11 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 22:01:11 INFO  time: compiled root in 43ms
+2023.11.16 22:01:12 WARN  unsupported Scala 2.11.8
+2023.11.16 22:01:12 WARN  unsupported Scala 2.11.8
+2023.11.16 22:02:10 WARN  unsupported Scala 2.11.8
+2023.11.16 22:02:13 WARN  unsupported Scala 2.11.8
+Nov 16, 2023 10:02:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 348
+2023.11.16 22:02:15 WARN  unsupported Scala 2.11.8
+2023.11.16 22:02:23 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 22:02:23 INFO  time: compiled root in 37ms
+2023.11.16 22:02:25 WARN  unsupported Scala 2.11.8
+2023.11.16 22:02:27 WARN  unsupported Scala 2.11.8
+2023.11.16 22:02:36 WARN  unsupported Scala 2.11.8
+2023.11.16 22:02:43 WARN  unsupported Scala 2.11.8
+2023.11.16 22:02:43 WARN  unsupported Scala 2.11.8
+2023.11.16 22:02:45 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 22:02:45 INFO  time: compiled root in 34ms
+2023.11.16 22:04:00 ERROR Failed to fetch mtags for 2.11.8
+Error downloading org.scalameta:mtags_2.11.8:1.1.0
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+2023.11.16 22:04:00 INFO  Failed to resolve mtags for 2.11.8
+2023.11.16 22:04:00 WARN  unsupported Scala 2.11.8
+2023.11.16 22:04:00 WARN  unsupported Scala 2.11.8
+2023.11.16 22:04:00 WARN  unsupported Scala 2.11.8
+2023.11.16 22:04:01 WARN  unsupported Scala 2.11.8
+2023.11.16 22:04:01 WARN  unsupported Scala 2.11.8
+2023.11.16 22:04:01 WARN  unsupported Scala 2.11.8
+2023.11.16 22:04:08 WARN  unsupported Scala 2.11.8
+2023.11.16 22:04:08 WARN  unsupported Scala 2.11.8
+2023.11.16 22:04:08 WARN  unsupported Scala 2.11.8
+2023.11.16 22:04:08 WARN  unsupported Scala 2.11.8
+2023.11.16 22:04:16 WARN  unsupported Scala 2.11.8
+2023.11.16 22:04:16 WARN  unsupported Scala 2.11.8
+2023.11.16 22:04:17 WARN  unsupported Scala 2.11.8
+2023.11.16 22:04:17 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 22:04:17 INFO  time: compiled root in 57ms
+2023.11.16 22:05:35 WARN  unsupported Scala 2.11.8
+2023.11.16 22:05:35 WARN  unsupported Scala 2.11.8
+Nov 16, 2023 10:05:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 449
+2023.11.16 22:05:36 WARN  unsupported Scala 2.11.8
+2023.11.16 22:05:38 WARN  unsupported Scala 2.11.8
+2023.11.16 22:05:38 WARN  unsupported Scala 2.11.8
+2023.11.16 22:05:38 WARN  unsupported Scala 2.11.8
+2023.11.16 22:08:59 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:02 ERROR Failed to fetch mtags for 2.11.8
+Error downloading org.scalameta:mtags_2.11.8:1.1.0
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+2023.11.16 22:09:02 INFO  Failed to resolve mtags for 2.11.8
+2023.11.16 22:09:02 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:02 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:05 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:10 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:11 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:11 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:19 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:19 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:21 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:25 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:27 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:29 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:29 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:29 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:31 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:31 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:32 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:32 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:36 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:36 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:36 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:39 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:39 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:39 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:40 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:40 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:42 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:42 WARN  unsupported Scala 2.11.8
+2023.11.16 22:09:44 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 22:09:44 INFO  time: compiled root in 55ms
+2023.11.16 22:10:46 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 22:10:46 INFO  time: compiled root in 79ms
+2023.11.16 22:14:34 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 22:14:34 INFO  time: compiled root in 78ms
+2023.11.16 22:15:52 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 22:15:52 INFO  time: compiled root in 88ms
+2023.11.16 22:16:52 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 22:16:52 INFO  time: compiled root in 0.12s
+2023.11.16 22:16:52 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 22:16:52 INFO  time: compiled root in 83ms
+2023.11.16 22:18:03 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 22:18:03 INFO  time: compiled root in 76ms
+2023.11.16 22:20:30 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 22:20:30 INFO  time: compiled root in 80ms
+2023.11.16 22:22:01 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 22:22:01 INFO  time: compiled root in 88ms
+2023.11.16 22:24:15 INFO  compiling root (10 scala sources and 1 java source)
+2023.11.16 22:24:15 INFO  time: compiled root in 55ms
+2023.11.16 22:24:34 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.16 22:24:34 INFO  time: compiled root in 45ms
+2023.11.16 22:24:34 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.16 22:24:34 INFO  time: compiled root in 55ms
+2023.11.16 22:24:35 ERROR Failed to fetch mtags for 2.11.8
+Error downloading org.scalameta:mtags_2.11.8:1.1.0
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+2023.11.16 22:24:35 INFO  Failed to resolve mtags for 2.11.8
+2023.11.16 22:24:35 WARN  unsupported Scala 2.11.8
+2023.11.16 22:24:35 WARN  unsupported Scala 2.11.8
+Nov 16, 2023 10:24:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 606
+2023.11.16 22:24:43 WARN  unsupported Scala 2.11.8
+2023.11.16 22:24:45 WARN  unsupported Scala 2.11.8
+2023.11.16 22:24:46 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.16 22:24:46 INFO  time: compiled root in 48ms
+2023.11.16 22:26:04 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.16 22:26:04 INFO  time: compiled root in 56ms
+2023.11.16 22:26:41 WARN  unsupported Scala 2.11.8
+2023.11.16 22:26:56 WARN  unsupported Scala 2.11.8
+2023.11.16 22:26:56 WARN  unsupported Scala 2.11.8
+2023.11.16 22:26:56 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:00 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:00 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:03 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:04 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:04 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:04 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:07 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:09 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:09 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:09 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:13 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:15 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:17 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:17 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:17 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:17 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:20 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:20 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:23 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:28 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:30 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:38 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:39 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:39 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:39 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:39 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:40 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:40 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:40 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:40 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:44 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:44 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.16 22:27:44 INFO  time: compiled root in 39ms
+2023.11.16 22:27:45 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:44 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:45 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:44 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:45 WARN  Using indexes to guess the definition of JsDefined
+2023.11.16 22:27:45 WARN  unsupported Scala 2.11.8
+2023.11.16 22:27:45 WARN  unsupported Scala 2.11.8
+2023.11.16 22:29:42 ERROR Failed to fetch mtags for 2.11.8
+Error downloading org.scalameta:mtags_2.11.8:1.1.0
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+2023.11.16 22:29:42 INFO  Failed to resolve mtags for 2.11.8
+2023.11.16 22:29:42 WARN  unsupported Scala 2.11.8
+Nov 16, 2023 10:29:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 793
+2023.11.16 22:29:51 WARN  unsupported Scala 2.11.8
+Nov 16, 2023 10:29:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 798
+2023.11.16 23:22:10 ERROR Failed to fetch mtags for 2.11.8
+Error downloading org.scalameta:mtags_2.11.8:1.1.0
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+2023.11.16 23:22:10 INFO  Failed to resolve mtags for 2.11.8
+2023.11.16 23:22:10 WARN  unsupported Scala 2.11.8
+2023.11.16 23:22:17 INFO  Shutting down server
+2023.11.16 23:22:17 INFO  shutting down Metals
+2023.11.16 23:22:17 ERROR build shutdown: bloop
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:134)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: An established connection was aborted by the software in your host machine
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy9.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:134)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: An established connection was aborted by the software in your host machine
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:68)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy9.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:134)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023.11.16 23:22:17 ERROR build shutdown: bloop
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:134)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: An established connection was aborted by the software in your host machine
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy9.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:134)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: An established connection was aborted by the software in your host machine
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:68)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy9.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:134)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023.11.16 23:22:17 ERROR build shutdown: bloop
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:134)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: An established connection was aborted by the software in your host machine
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy9.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:134)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.IOException: An established connection was aborted by the software in your host machine
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:68)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy9.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:134)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2023.11.16 23:22:17 INFO  Exiting server
+2023.11.17 09:23:04 INFO  Started: Metals version 1.1.0 in folders 'C:\Users\ryant\Play-with-Spark' for client Visual Studio Code 1.84.2.
+2023.11.17 09:23:05 INFO  Attempting to connect to the build server...
+2023.11.17 09:23:05 INFO  skipping build import with status 'Installed'
+2023.11.17 09:23:05 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk17.0.8_8 defined at C:\Users\ryant\.bloop\bloop.json
+2023.11.17 09:23:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ryant\Play-with-Spark\.metals\bsp.trace.json or C:\Users\ryant\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.17 09:23:05 INFO  Attempting to connect to the build server...
+2023.11.17 09:23:05 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk17.0.8_8 defined at C:\Users\ryant\.bloop\bloop.json
+2023.11.17 09:23:05 INFO  Attempting to connect to the build server...
+2023.11.17 09:23:05 INFO  Bloop uses C:\Program Files\Amazon Corretto\jdk17.0.8_8 defined at C:\Users\ryant\.bloop\bloop.json
+2023.11.17 09:23:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ryant\Play-with-Spark\project\project\.metals\bsp.trace.json or C:\Users\ryant\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.17 09:23:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ryant\Play-with-Spark\project\.metals\bsp.trace.json or C:\Users\ryant\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.17 09:23:06 INFO  time: Connected to build server in 0.55s
+2023.11.17 09:23:06 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.17 09:23:06 ERROR Failed to fetch mtags for 2.11.8
+Error downloading org.scalameta:mtags_2.11.8:1.1.0
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+2023.11.17 09:23:06 INFO  Failed to resolve mtags for 2.11.8
+2023.11.17 09:23:07 ERROR Failed to fetch mtags for 2.11.8
+Error downloading org.scalameta:mtags_2.11.8:1.1.0
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+2023.11.17 09:23:07 INFO  Failed to resolve mtags for 2.11.8
+2023.11.17 09:23:07 ERROR Failed to fetch mtags for 2.12.4
+Error downloading org.scalameta:mtags_2.12.4:1.1.0
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.12.4\1.1.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.4/1.1.0/mtags_2.12.4-1.1.0.pom
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.12.4\1.1.0\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.12.4/1.1.0/mtags_2.12.4-1.1.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.12.4/1.1.0/mtags_2.12.4-1.1.0.pom
+2023.11.17 09:23:07 INFO  Failed to resolve mtags for 2.12.4
+2023.11.17 09:23:07 ERROR Failed to fetch mtags for 2.12.4
+Error downloading org.scalameta:mtags_2.12.4:1.1.0
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.12.4\1.1.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.12.4/1.1.0/mtags_2.12.4-1.1.0.pom
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.12.4\1.1.0\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.12.4/1.1.0/mtags_2.12.4-1.1.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.12.4/1.1.0/mtags_2.12.4-1.1.0.pom
+2023.11.17 09:23:07 INFO  Failed to resolve mtags for 2.12.4
+2023.11.17 09:23:07 ERROR Failed to fetch mtags for 2.11.8
+Error downloading org.scalameta:mtags_2.11.8:1.1.0
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+2023.11.17 09:23:07 INFO  Failed to resolve mtags for 2.11.8
+2023.11.17 09:23:11 INFO  time: indexed workspace in 5.44s
+2023.11.17 09:23:12 WARN  unsupported Scala 2.11.8
+2023.11.17 09:23:12 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.17 09:23:12 INFO  time: compiled root in 0.99s
+2023.11.17 09:23:13 WARN  unsupported Scala 2.11.8
+2023.11.17 09:23:13 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.17 09:23:13 INFO  time: compiled root in 48ms
+2023.11.17 09:29:54 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.17 09:29:54 INFO  time: compiled root in 58ms
+2023.11.17 09:29:54 ERROR Failed to fetch mtags for 2.11.8
+Error downloading org.scalameta:mtags_2.11.8:1.1.0
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: C:\Users\ryant\.ivy2\local\org.scalameta\mtags_2.11.8\1.1.0\ivys\ivy.xml
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_2.11.8/1.1.0/mtags_2.11.8-1.1.0.pom
+2023.11.17 09:29:54 INFO  Failed to resolve mtags for 2.11.8
+2023.11.17 09:29:54 WARN  unsupported Scala 2.11.8
+2023.11.17 09:30:10 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.17 09:30:10 INFO  time: compiled root in 39ms
+2023.11.17 09:30:11 WARN  unsupported Scala 2.11.8
+2023.11.17 09:30:11 WARN  unsupported Scala 2.11.8
+2023.11.17 09:30:11 WARN  unsupported Scala 2.11.8
+2023.11.17 09:30:12 WARN  unsupported Scala 2.11.8
+2023.11.17 09:30:12 WARN  unsupported Scala 2.11.8
+2023.11.17 09:30:12 WARN  unsupported Scala 2.11.8
+2023.11.17 09:30:14 WARN  unsupported Scala 2.11.8
+2023.11.17 09:30:14 WARN  unsupported Scala 2.11.8
+2023.11.17 09:30:22 WARN  unsupported Scala 2.11.8
+2023.11.17 09:30:22 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.17 09:30:22 INFO  time: compiled root in 51ms
+2023.11.17 09:30:52 WARN  unsupported Scala 2.11.8
+2023.11.17 09:30:52 WARN  unsupported Scala 2.11.8
+2023.11.17 09:31:06 WARN  unsupported Scala 2.11.8
+2023.11.17 09:31:06 WARN  unsupported Scala 2.11.8
+2023.11.17 09:31:12 WARN  unsupported Scala 2.11.8
+2023.11.17 09:31:13 WARN  unsupported Scala 2.11.8
+2023.11.17 09:31:13 INFO  compiling root (11 scala sources and 1 java source)
+2023.11.17 09:31:13 INFO  time: compiled root in 53ms
+2023.11.17 09:32:28 WARN  unsupported Scala 2.11.8
+2023.11.17 09:32:28 WARN  unsupported Scala 2.11.8
+2023.11.17 09:34:30 INFO  Shutting down server
+2023.11.17 09:34:30 INFO  shutting down Metals
+2023.11.17 09:34:30 INFO  Shut down connection with build server.
+2023.11.17 09:34:30 INFO  Shut down connection with build server.
+2023.11.17 09:34:30 INFO  Shut down connection with build server.
+2023.11.17 09:34:30 INFO  Exiting server
