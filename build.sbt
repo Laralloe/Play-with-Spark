@@ -1,4 +1,4 @@
-
+// Credits to Debarron for the Play-with-Spark build
 scalaVersion := "2.11.8"
 
 libraryDependencies ++= Seq( 

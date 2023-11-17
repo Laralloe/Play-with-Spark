@@ -4,27 +4,26 @@ import javax.inject.Inject
 import play.api.mvc._
 import scala.concurrent.Future
 import scala.concurrent.ExecutionContext.Implicits._
-
-// Spark
-import spark.SparkTest
+import play.api.libs.json.Json._
+import models.Model._
 
 
 class HomeController @Inject()(cc: ControllerComponents) extends AbstractController(cc) {
 
   def index = Action { implicit request =>
-    Ok(views.html.index())
+    val headers: Seq[String] = getHeaders(data)
+    Ok(views.html.index(dataFrameToJson(data), headers))
   }
 
   // A simple example to call Apache Spark
   def test = Action { implicit request =>
-  	val sum = SparkTest.Example
-    Ok(views.html.test_args(s"A call to Spark, with result: $sum"))
+
+    Ok(views.html.test_args(s"A call to Spark, with result"))
   }
 
   // A non-blocking call to Apache Spark 
-  def testAsync = Action.async{
-  	val futureSum = Future{SparkTest.Example}
-    futureSum.map{ s => Ok(views.html.test_args(s"A non-blocking call to Spark with result: ${s + 1000}"))}
-  }
+  // def testAsync = Action.async{
+  // 	Ok(views.html.test_args("TEST"))
+  // }
 
 }
