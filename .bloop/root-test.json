@@ -67,7 +67,7 @@
             "C:\\Users\\ryant\\.ivy2\\cache\\com.google.inject.extensions\\guice-assistedinject\\jars\\guice-assistedinject-4.1.0.jar",
             "C:\\Users\\ryant\\.ivy2\\cache\\org.joda\\joda-convert\\jars\\joda-convert-1.9.2.jar",
             "C:\\Users\\ryant\\.ivy2\\cache\\org.apache.spark\\spark-core_2.11\\jars\\spark-core_2.11-2.2.0.jar",
-            "C:\\Users\\ryant\\.ivy2\\cache\\org.apache.avro\\avro\\bundles\\avro-1.7.7.jar",
+            "C:\\Users\\ryant\\.ivy2\\cache\\org.apache.avro\\avro\\jars\\avro-1.7.7.jar",
             "C:\\Users\\ryant\\.ivy2\\cache\\org.codehaus.jackson\\jackson-core-asl\\jars\\jackson-core-asl-1.9.13.jar",
             "C:\\Users\\ryant\\.ivy2\\cache\\org.codehaus.jackson\\jackson-mapper-asl\\jars\\jackson-mapper-asl-1.9.13.jar",
             "C:\\Users\\ryant\\.ivy2\\cache\\org.xerial.snappy\\snappy-java\\bundles\\snappy-java-1.1.2.6.jar",
@@ -1200,7 +1200,7 @@
                     "artifacts": [
                         {
                             "name": "avro",
-                            "path": "C:\\Users\\ryant\\.ivy2\\cache\\org.apache.avro\\avro\\bundles\\avro-1.7.7.jar"
+                            "path": "C:\\Users\\ryant\\.ivy2\\cache\\org.apache.avro\\avro\\jars\\avro-1.7.7.jar"
                         },
                         {
                             "name": "avro",
@@ -3650,6 +3650,27 @@
                             "name": "classindex",
                             "classifier": "sources",
                             "path": "C:\\Users\\ryant\\.ivy2\\cache\\org.atteo.classindex\\classindex\\srcs\\classindex-3.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty.websocket",
+                    "name": "websocket-common",
+                    "version": "9.4.5.v20170502",
+                    "artifacts": [
+                        {
+                            "name": "websocket-common",
+                            "path": "C:\\Users\\ryant\\.ivy2\\cache\\org.eclipse.jetty.websocket\\websocket-common\\jars\\websocket-common-9.4.5.v20170502.jar"
+                        },
+                        {
+                            "name": "websocket-common",
+                            "classifier": "",
+                            "path": "C:\\Users\\ryant\\.ivy2\\cache\\org.eclipse.jetty.websocket\\websocket-common\\jars\\websocket-common-9.4.5.v20170502.jar"
+                        },
+                        {
+                            "name": "websocket-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\ryant\\.ivy2\\cache\\org.eclipse.jetty.websocket\\websocket-common\\srcs\\websocket-common-9.4.5.v20170502-sources.jar"
                         }
                     ]
                 },

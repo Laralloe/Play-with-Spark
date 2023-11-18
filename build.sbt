@@ -9,6 +9,7 @@ libraryDependencies ++= Seq(
   , "org.apache.spark" %% "spark-sql" % "2.2.0"
   , "org.apache.spark" %% "spark-mllib" % "2.2.0"
   , "org.apache.hadoop" % "hadoop-client" % "2.7.2"
+  , "com.typesafe.play" %% "filters-helpers" % "2.5.13"
 )
 
 // Stuff

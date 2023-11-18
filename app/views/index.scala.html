@@ -2,7 +2,7 @@
 @import utils.JsonUtils._
 @import models.Model.{ data, pageSize }
 
-@(jsonData: Seq[JsValue], headers: Seq[String], pageNumber: Int)
+@(jsonData: Seq[JsValue], headers: Seq[String], pageNumber: Int)(implicit request: RequestHeader)
 
 @main("Records") {
   <h1>Records</h1>
@@ -14,6 +14,7 @@
       hx-trigger="click"
       hx-target="body"
       hx-swap="innerHTML"
+      hx-indicator=".htmx-indicator"
       @if(pageNumber == 1) {
         disabled
       }
@@ -25,6 +26,7 @@
       hx-trigger="click"
       hx-target="body"
       hx-swap="innerHTML"
+      hx-indicator=".htmx-indicator"
       @if(pageNumber == (data.count / pageSize)) {
         disabled
       }
@@ -32,24 +34,60 @@
       Next
     </button>
   </div>
-  <table border="1">
-    <thead>
-      @if(headers.nonEmpty) {
-        @for(record <- headers) {
-          @if(record != "__rowId") {
-            <th>@record</th>
-          }
-        }
-      }
-    </thead>
-    <tbody>
-      @for(record <- jsonData) {
+  <div class="data-table">
+    <table>
+      <thead>
         <tr>
-          @for(header <- headers) {
-            <td>@(unwrapValue(record \ header))</td>
+          <th>Actions</th>
+          @if(headers.nonEmpty) {
+            @for(record <- headers) {
+              @if(record != "__rowId") {
+                <th>
+                  @record
+                  <div class="sort"
+                  hx-trigger="change"
+                  hx-post="@routes.HomeController.sort(pageNumber)"
+                  hx-target="body"
+                  >
+                    <label for="sort-@record">Sort</label>
+                    <select id="sort-@record" name="sortField-@record">
+                      <option value="asc">Ascending</option>
+                      <option value="desc">Descending</option>
+                    </select>
+                  </div>
+                </th>
+              }
+            }
           }
         </tr>
-      }
-    </tbody>
-  </table>
+      </thead>
+      <tbody>
+        @for(record <- jsonData) {
+          <tr>
+            <td>
+              <button class="edit-button"
+              hx-trigger="click"
+              hx-target="body"
+              hx-swap="innerHTML"
+              >
+                Edit
+              </button>
+              <button class="delete-button"
+              hx-delete="@routes.HomeController.deleteRecord(pageNumber, (record \ "__rowId").as[String])"
+              hx-trigger="click"
+              hx-target="body"
+              hx-swap="innerHTML"
+              hx-confirm="Are you sure you want to delete this record?"
+              >
+                Delete
+              </button>
+            </td>
+            @for(header <- headers) {
+              <td>@(unwrapValue(record \ header))</td>
+            }
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
 }
